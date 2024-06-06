@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2024-06-06T14:04:52.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="7iBLg0EGoaM18gauQoIT" version="24.4.15" type="device" pages="2">
+  <diagram name="Página-1" id="2lEotLva6-2F8DCIG3a4">
+    <mxGraphModel dx="2261" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C3ABD0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="430" width="290" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="520" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-3" value="&lt;font face=&quot;Times New Roman&quot; size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;cadastro de clientes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="450" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;Nome&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="580" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;Email&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="640" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;Telefone&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-10" value="Salvar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-11" value="Cancelar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="760" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C3ABD0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="430" width="290" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-16" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Login&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;Email&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="580" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-20" value="&lt;font face=&quot;Times New Roman&quot;&gt;Senha&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-21" value="Entrar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="760" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-22" value="esqueceu a senha?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="610" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_UxoQGZE6eSeHuv3xSCY-24" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J4XG02m-Jy3qrXzmMhdY" name="Página-2">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
