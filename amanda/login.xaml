@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="amanda.Login"
+             BackgroundColor="#D3A4DE"
+             Title="Login">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20" Spacing="10">
+            <Label Text="Login" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <Entry Placeholder="Email" x:Name="emailEntry" BackgroundColor="White" />
+
+            <Entry Placeholder="Senha" x:Name="senhaEntry" IsPassword="True" BackgroundColor="White" />
+
+            <Label Text="esqueceu a senha?" TextColor="Blue" HorizontalOptions="Center" />
+
+            <Button Text="Entrar" x:Name="entrarButton" BackgroundColor="White" TextColor="Black" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
