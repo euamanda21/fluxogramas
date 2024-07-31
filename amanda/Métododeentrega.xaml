@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   
+
+             x:Class="amanda.Métododeentrega">   
+
+
+    <StackLayout>
+        <Label Text="Método de Entrega" FontSize="Title" HorizontalTextAlignment="Center" />
+
+        <Button Text="entrega padrão" Clicked="OpcaoEntrega_Clicked" />
+        <Label Text="$12,99 + frete (depende do local da entrega)" FontSize="Small" HorizontalTextAlignment="Center" />
+
+        <Button Text="expressa" Clicked="OpcaoEntrega_Clicked" />
+        <Button Text="retirada na loja" Clicked="OpcaoEntrega_Clicked" />
+        <Button Text="correios" Clicked="OpcaoEntrega_Clicked" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="20" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="selecionar" Grid.Column="0" Clicked="Selecionar_Clicked" />
+            <Label Text=">" Grid.Column="1" FontSize="Large" HorizontalTextAlignment="Center" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

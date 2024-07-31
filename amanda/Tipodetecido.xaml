@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="amanda.Tipodetecido">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#D1C4E9" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="seleção do tipo de tecido" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Button Text="algodão" />
+            <Button Text="linho" />
+            <Button Text="seda" />
+            <Button Text="lã" />
+            <Button Text="poliester" />
+            <Button Text="nylon" />
+            <Button Text="elastano" />
+            <Button Text="acrílico" />
+            <Button Text="renda" />
+            <Button Text="viscose" />
+            <Button Text="confirmar seleção" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

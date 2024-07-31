@@ -1,0 +1,29 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   
+
+             x:Class="amanda.Roupassuperiores">   
+
+
+    <StackLayout>
+        <Label Text="Roupas Superiores" FontSize="Title" HorizontalTextAlignment="Center" />
+
+        <Button Text="Camisetas básicas" Clicked="OpcaoSelecionada" />
+        <Button Text="camisas polo" Clicked="OpcaoSelecionada" />
+        <Button Text="Camisas de botão" Clicked="OpcaoSelecionada" />
+        <Button Text="cropped" Clicked="OpcaoSelecionada" />
+        <Button Text="body" Clicked="OpcaoSelecionada" />
+        <Button Text="blusa manga longa" Clicked="OpcaoSelecionada" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="<" Grid.Column="0" Clicked="Navegar" />
+            <Button Text="selecionar" Grid.Column="1" Clicked="Selecionar" />
+            <Button Text=">" Grid.Column="2" Clicked="Navegar" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

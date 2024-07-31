@@ -1,11 +1,11 @@
 using System;
 using Microsoft.Maui.Controls;
 
-namespace YourNamespace
+namespace cadastrconcluido
 {
-    public partial class CadastroPage : ContentPage
+    public partial class cadastroconcluido : ContentPage
     {
-        public CadastroPage()
+        public cadastroconcuido()
         {
             InitializeComponent();
             entrarButton.Clicked += OnEntrarButtonClicked;
