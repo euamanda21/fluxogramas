@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="amanda.Roupasdelazer"
+             BackgroundColor="#D3B6E6"
+             Title="Roupas de Lazer">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Roupas de Lazer" 
+               FontSize="24" 
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+        
+        <Button Text="camisetas" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,10"/>
+        
+        <Button Text="bermudas" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,10"/>
+        
+        <Button Text="shorts" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,10"/>
+        
+        <Button Text="conjunto" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,10"/>
+        
+        <Button Text="macaquinho" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,10"/>
+        
+        <Button Text="chinelo" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,10"/>
+        
+        <Button Text="selecionar" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,20"/>
+
+        <Button Text="<-" 
+                BackgroundColor="White" 
+                TextColor="Black"
+                Margin="0,20"/>
+    </StackLayout>
+
+</ContentPage>
