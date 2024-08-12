@@ -1,6 +1,6 @@
 using Microsoft.Maui.Controls;
 
-namespace CadastroCliente
+namespace amanda
 {
     public partial class MainPage : ContentPage
     {

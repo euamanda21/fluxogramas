@@ -6,22 +6,52 @@
              Title="Cadastro">
 
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20" Spacing="10">
-            <Label Text="cadastro" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+        <StackLayout 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="20" 
+        Spacing="10">
+            <Label Text="cadastro" 
+            FontSize="Large" 
+            FontAttributes="Bold" 
+            HorizontalOptions="Center" />
 
-            <Frame BackgroundColor="White" CornerRadius="20" Padding="10" HorizontalOptions="Center">
-                <Grid VerticalOptions="Center" HorizontalOptions="Center">
-                    <!-- Nuvem -->
-                    <Frame BackgroundColor="#D3A4DE" CornerRadius="100" HeightRequest="150" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" HasShadow="False">
+            <Frame BackgroundColor="White" 
+            CornerRadius="20" Padding="10" 
+            HorizontalOptions="Center">
+                <Grid VerticalOptions="Center" 
+                HorizontalOptions="Center">
+                  
+                    <Frame
+                    BackgroundColor="#D3A4DE" 
+                    CornerRadius="100" 
+                    HeightRequest="150" 
+                    WidthRequest="200" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center" 
+                    HasShadow="False">
                         <Grid>
-                            <Label Text="cadastro concluído(a)" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" />
-                            <Label Text="✔" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="End" TextColor="Black" />
+                            <Label Text="cadastro concluído(a)" 
+                            FontSize="Medium" 
+                            FontAttributes="Bold" 
+                            HorizontalOptions="Center" 
+                            VerticalOptions="Center" 
+                            TextColor="Black" />
+                            <Label Text="✔" 
+                            FontSize="Large" 
+                            FontAttributes="Bold" 
+                            HorizontalOptions="Center" 
+                            VerticalOptions="End" 
+                            TextColor="Black" />
                         </Grid>
                     </Frame>
                 </Grid>
             </Frame>
 
-            <Button Text="Entrar" x:Name="entrarButton" BackgroundColor="White" TextColor="Black" />
+            <Button Text="Entrar" 
+            x:Name="entrarButton" 
+            BackgroundColor="White" 
+            TextColor="Black" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

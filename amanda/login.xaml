@@ -6,16 +6,34 @@
              Title="Login">
 
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20" Spacing="10">
-            <Label Text="Login" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+        <StackLayout 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="20" 
+        Spacing="10">
 
-            <Entry Placeholder="Email" x:Name="emailEntry" BackgroundColor="White" />
+            <Label Text="Login" 
+            FontSize="Large" 
+            FontAttributes="Bold" 
+            HorizontalOptions="Center" />
 
-            <Entry Placeholder="Senha" x:Name="senhaEntry" IsPassword="True" BackgroundColor="White" />
+            <Entry Placeholder="Email" 
+            x:Name="emailEntry" 
+            BackgroundColor="White" />
 
-            <Label Text="esqueceu a senha?" TextColor="Blue" HorizontalOptions="Center" />
+            <Entry Placeholder="Senha"
+             x:Name="senhaEntry" 
+             IsPassword="True"
+              BackgroundColor="White" />
 
-            <Button Text="Entrar" x:Name="entrarButton" BackgroundColor="White" TextColor="Black" />
+            <Label Text="esqueceu a senha?" 
+            TextColor="Blue"
+            HorizontalOptions="Center" />
+
+            <Button Text="Entrar" 
+            x:Name="entrarButton" 
+            BackgroundColor="White" 
+            TextColor="Black" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

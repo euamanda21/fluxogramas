@@ -4,13 +4,20 @@
 
     <ScrollView>
         <StackLayout>
-            <Label Text="Roupas Íntimas" FontSize="Title" HorizontalTextAlignment="Center" />
+            <Label Text="Roupas Íntimas"
+             FontSize="Title"
+              HorizontalTextAlignment="Center" />
 
-            <Button Text="sutiã" Clicked="OpcaoSelecionada" />
-            <Button Text="calcinha" Clicked="OpcaoSelecionada" />
-            <Button Text="cuecas" Clicked="OpcaoSelecionada" />
-            <Button Text="biquíni" Clicked="OpcaoSelecionada" />
-            <Button Text="maiô" Clicked="OpcaoSelecionada" />
+            <Button Text="sutiã" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="calcinha" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="cuecas" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="biquíni"
+             Clicked="OpcaoSelecionada" />
+            <Button Text="maiô"
+            Clicked="OpcaoSelecionada" />
 
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -19,9 +26,15 @@
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
-                <Button Text="<" Grid.Column="0" Clicked="Navegar" />
-                <Button Text="selecionar" Grid.Column="1" Clicked="Selecionar" />
-                <Button Text=">" Grid.Column="2" Clicked="Navegar" />
+                <Button Text="<"
+                 Grid.Column="0" 
+                 Clicked="Navegar" />
+                <Button Text="selecionar" 
+                Grid.Column="1"
+                 Clicked="Selecionar" />
+                <Button Text=">" 
+                Grid.Column="2" 
+                Clicked="Navegar" />
             </Grid>
         </StackLayout>
     </ScrollView>

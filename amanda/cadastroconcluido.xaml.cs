@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Maui.Controls;
 
-namespace cadastrconcluido
+namespace amanda
 {
     public partial class cadastroconcluido : ContentPage
     {
@@ -13,7 +13,7 @@ namespace cadastrconcluido
 
         private void OnEntrarButtonClicked(object sender, EventArgs e)
         {
-            // Adicione aqui a lógica do botão "Entrar"
+            
         }
     }
 }

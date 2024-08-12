@@ -5,14 +5,22 @@
 
     <ScrollView>
         <StackLayout>
-            <Label Text="Roupas Esportivas" FontSize="Title" HorizontalTextAlignment="Center" />
+            <Label Text="Roupas Esportivas"
+             FontSize="Title" 
+             HorizontalTextAlignment="Center" />
 
-            <Button Text="Camisetas dry-fit" Clicked="OpcaoSelecionada" />
-            <Button Text="Shorts esportivos" Clicked="OpcaoSelecionada" />
-            <Button Text="legging" Clicked="OpcaoSelecionada" />
-            <Button Text="conjunto" Clicked="OpcaoSelecionada" />
-            <Button Text="Agasalho esportivo" Clicked="OpcaoSelecionada" />
-            <Button Text="top esportivo" Clicked="OpcaoSelecionada" />
+            <Button Text="Camisetas dry-fit" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="Shorts esportivos" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="legging" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="conjunto" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="Agasalho esportivo" 
+            Clicked="OpcaoSelecionada" />
+            <Button Text="top esportivo"
+             Clicked="OpcaoSelecionada" />
 
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -21,9 +29,15 @@
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
-                <Button Text="<" Grid.Column="0" Clicked="Navegar" />
-                <Button Text="selecionar" Grid.Column="1" Clicked="Selecionar" />
-                <Button Text=">" Grid.Column="2" Clicked="Navegar" />
+                <Button Text="<"
+                 Grid.Column="0"
+                  Clicked="Navegar" />
+                <Button Text="selecionar" 
+                Grid.Column="1"
+                 Clicked="Selecionar" />
+                <Button Text=">"
+                 Grid.Column="2" 
+                 Clicked="Navegar" />
             </Grid>
         </StackLayout>
     </ScrollView>

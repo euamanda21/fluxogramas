@@ -1,7 +1,7 @@
 using Microsoft.Maui.Controls;
 using System;
 
-namespace Terceirapeça
+namespace amanda
 {
     public partial class  Terceirapeça : ContentPage
     {

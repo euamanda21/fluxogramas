@@ -12,7 +12,7 @@ namespace amanda
 
         private void OnEntrarButtonClicked(object sender, EventArgs e)
         {
-            // Adicione aqui a lógica do botão "Entrar"
+           
         }
     }
 }

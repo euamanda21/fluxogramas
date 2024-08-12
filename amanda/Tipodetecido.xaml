@@ -3,8 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="amanda.Tipodetecido">
     <ContentPage.Content>
-        <StackLayout Padding="20" BackgroundColor="#D1C4E9" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="seleção do tipo de tecido" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+        <StackLayout Padding="20" 
+        BackgroundColor="#D1C4E9" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center">
+            <Label Text="seleção do tipo de tecido" 
+            FontSize="Large" 
+            FontAttributes="Bold" 
+            HorizontalOptions="Center" />
+        
             <Button Text="algodão" />
             <Button Text="linho" />
             <Button Text="seda" />

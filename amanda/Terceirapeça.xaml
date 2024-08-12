@@ -3,15 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="amanda.Terceirapeça">
     <ContentPage.Content>
-        <StackLayout Padding="20" BackgroundColor="#D1C4E9" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="terceira peça" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+        <StackLayout Padding="20" 
+        BackgroundColor="#D1C4E9" 
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+            <Label Text="terceira peça" 
+            FontSize="Large" 
+            FontAttributes="Bold" 
+            HorizontalOptions="Center" />
+
             <Button Text="moletom" />
             <Button Text="blazers" />
             <Button Text="jaquetas" />
             <Button Text="casacos" />
             <Button Text="suéteres" />
             <Button Text="coletes" />
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <StackLayout 
+            Orientation="Horizontal" 
+            HorizontalOptions="Center">
                 <Button Text="selecionar" />
                 <Button Text=">" />
             </StackLayout>

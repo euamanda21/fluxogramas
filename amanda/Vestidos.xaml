@@ -1,22 +1,3 @@
-Analisando a Imagem e Planejando o XAML e C#
-Entendendo a Interface:
-
-A imagem apresenta uma interface simples com:
-
-Título: "vestidos"
-Botões: "vestidos curtos", "vestidos midi", "vestidos longos", "vestido de festas", "vestidos de gala"
-Botões de navegação: "<" e ">"
-Botão principal: "selecionar"
-Estrutura XAML:
-
-Para reproduzir essa interface em XAML, podemos utilizar os seguintes elementos:
-
-StackLayout: Para organizar os elementos em uma coluna.
-Label: Para o título.
-Button: Para os botões.
-Funcionalidade C#:
-
-No arquivo C#, podemos:
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   
 
@@ -24,13 +5,20 @@ No arquivo C#, podemos:
 
 
     <StackLayout>
-        <Label Text="Vestidos" FontSize="Title" HorizontalTextAlignment="Center" />
+        <Label Text="Vestidos" 
+        FontSize="Title"
+         HorizontalTextAlignment="Center" />
 
-        <Button Text="Vestidos Curtos" Clicked="Button_Clicked" />
-        <Button Text="Vestidos Midi" Clicked="Button_Clicked" />
-        <Button Text="Vestidos Longos" Clicked="Button_Clicked" />
-        <Button Text="Vestido de Festas" Clicked="Button_Clicked" />
-        <Button Text="Vestidos de Gala" Clicked="Button_Clicked" />
+        <Button Text="Vestidos Curtos" 
+        Clicked="Button_Clicked" />
+        <Button Text="Vestidos Midi" 
+        Clicked="Button_Clicked" />
+        <Button Text="Vestidos Longos" 
+        Clicked="Button_Clicked" />
+        <Button Text="Vestido de Festas" 
+        Clicked="Button_Clicked" />
+        <Button Text="Vestidos de Gala" 
+        Clicked="Button_Clicked" />
 
         <Grid>
             <Grid.ColumnDefinitions>
@@ -39,9 +27,15 @@ No arquivo C#, podemos:
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <Button Text="<" Grid.Column="0" Clicked="NavigationButton_Clicked" />
-            <Button Text="Selecionar" Grid.Column="1" Clicked="SelecionarButton_Clicked" />
-            <Button Text=">" Grid.Column="2" Clicked="NavigationButton_Clicked" />
+            <Button Text="<" 
+            Grid.Column="0" 
+            Clicked="NavigationButton_Clicked" />
+            <Button Text="Selecionar" 
+            Grid.Column="1" 
+            Clicked="SelecionarButton_Clicked" />
+            <Button Text=">" 
+            Grid.Column="2" 
+            Clicked="NavigationButton_Clicked" />
         </Grid>
     </StackLayout>
 </ContentPage>

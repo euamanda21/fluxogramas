@@ -1,7 +1,7 @@
 using Microsoft.Maui.Controls;
 using System;
 
-namespace Entregaproduto
+namespace amanda
 {
     public partial class Entregaproduto : ContentPage
     {

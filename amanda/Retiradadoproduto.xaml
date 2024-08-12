@@ -5,7 +5,8 @@
              BackgroundColor="#D3B6E6"
              Title="Retirada do Produto">
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <StackLayout VerticalOptions="Center"
+     HorizontalOptions="Center">
         <Label Text="Retirada do Produto" 
                FontSize="24" 
                FontAttributes="Bold"

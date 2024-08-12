@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 
-namespace Vestidos
+namespace amanda
 {
     public partial class Vestidos : ContentPage
     {

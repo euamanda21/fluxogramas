@@ -1,7 +1,7 @@
 using Microsoft.Maui.Controls;
 using System;
 
-namespace Tipodetecido
+namespace amanda
 {
     public partial class Tipodetecido : ContentPage
     {
