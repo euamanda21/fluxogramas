@@ -24,7 +24,7 @@
             <Entry Placeholder="Senha"
              x:Name="senhaEntry" 
              IsPassword="True"
-              BackgroundColor="White" />
+             BackgroundColor="White" />
 
             <Label Text="esqueceu a senha?" 
             TextColor="Blue"
