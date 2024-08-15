@@ -10,7 +10,7 @@
         VerticalOptions="Center" 
         HorizontalOptions="Center" 
         Padding="20" 
-        Spacing="10">
+        Spacing="10"/>
 
             <Label Text="Login" 
             FontSize="Large" 
@@ -34,6 +34,6 @@
             x:Name="entrarButton" 
             BackgroundColor="White" 
             TextColor="Black" />
-        </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

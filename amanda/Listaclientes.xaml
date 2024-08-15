@@ -14,7 +14,7 @@
 
         <Frame BorderColor="Black"
                CornerRadius="10"
-               HasShadow="False">
+               HasShadow="False"/>
             <StackLayout>
                 <Label Text="Lista"
                        FontSize="Medium"
@@ -40,7 +40,7 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </StackLayout>
-        </Frame>
+        
 
         <Button Text="Salvar"
                 BackgroundColor="White"

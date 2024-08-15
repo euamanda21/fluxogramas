@@ -1,4 +1,4 @@
-using LiteDBExample.Modelos;
+using amanda.Modelos;
 
 namespace amanda;
 
