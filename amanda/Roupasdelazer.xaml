@@ -48,7 +48,7 @@
                 TextColor="Black"
                 Margin="0,20"/>
 
-        <Button Text="<-" 
+        <Button Text="voltar" 
                 BackgroundColor="White" 
                 TextColor="Black"
                 Margin="0,20"/>

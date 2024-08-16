@@ -1,4 +1,4 @@
-namespace amanda;
+namespace amanda.Modelos;
 
 public class Registro
 {

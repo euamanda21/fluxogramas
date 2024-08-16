@@ -48,7 +48,7 @@
                             TextColor="Black" />
                         </Grid>
                     </Frame>
-                
+                </Grid>
             </Frame>
 
             <Button Text="Entrar" 
@@ -57,4 +57,4 @@
             TextColor="Black" />
         </StackLayout>
     </ContentPage.Content>
-
+    </ContentPage>

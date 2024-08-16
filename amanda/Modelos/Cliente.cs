@@ -1,6 +1,6 @@
 using LiteDB;
 
-namespace amanda;
+namespace amanda.Modelos;
 
 public class Cliente : Registro
 {

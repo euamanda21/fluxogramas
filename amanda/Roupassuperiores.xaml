@@ -29,7 +29,7 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <Button Text="<"
+            <Button Text="voltar"
              Grid.Column="0"
               Clicked="Navegar" />
             <Button Text="selecionar" 

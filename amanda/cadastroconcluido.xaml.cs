@@ -5,7 +5,7 @@ namespace amanda
 {
     public partial class cadastroconcluido : ContentPage
     {
-        public cadastroconcuido()
+        public cadastroconcluido()
         {
             InitializeComponent();
             entrarButton.Clicked += OnEntrarButtonClicked;

@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace amanda
 {
-    public partial class MainPage : ContentPage
+    public partial class Cadastrocliente : ContentPage
     {
-        public MainPage()
+        public Cadastrocliente()
         {
             InitializeComponent();
         }
