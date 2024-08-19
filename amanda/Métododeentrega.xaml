@@ -1,6 +1,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-
+            Shell.NavBarIsVisible="False"
+            BackgroundColor="#D1C4E9"
              x:Class="amanda.Métododeentrega">  
 
 
@@ -9,33 +10,46 @@
         FontSize="Title"
          HorizontalTextAlignment="Center" />
 
-        <Button Text="entrega padrão" 
+        <Button Text="entrega padrão"
+        BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20" 
         Clicked="OpcaoEntrega_Clicked" />
-        <Label Text="$12,99 + frete (depende do local da entrega)" 
-        FontSize="Small"
-        HorizontalTextAlignment="Center" />
+        <Button Text="$12,99 + frete (depende do local da entrega)"
+        BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20"  />
 
         <Button Text="expressa" 
+          BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20"
         Clicked="OpcaoEntrega_Clicked" />
-        <Button Text="retirada na loja" 
+        <Button Text="retirada na loja"
+          BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20" 
         Clicked="OpcaoEntrega_Clicked" />
-        <Button Text="correios" 
+        <Button Text="correios"
+          BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20" 
         Clicked="OpcaoEntrega_Clicked" />
 
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition 
-                Width="20" />
-            </Grid.ColumnDefinitions>
+      
 
-            <Button Text="selecionar" 
+            <Button Text="selecionar"
+          BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20" 
+        Clicked="OpcaoEntrega_Clicked" />
+
+           <Button Text="voltar"
+            BackgroundColor="White"
+          TextColor="Black" 
+          Margin="10,10,10,20" 
             Grid.Column="0" 
             Clicked="Selecionar_Clicked" />
-            <Label Text=">" 
-            Grid.Column="1"
-             FontSize="Large" 
-             HorizontalTextAlignment="Center" />
-        </Grid>
+    
     </StackLayout>
 </ContentPage>

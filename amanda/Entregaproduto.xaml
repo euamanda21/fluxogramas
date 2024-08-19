@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+            BackgroundColor="#D1C4E9"
              x:Class="amanda.Entregaproduto">
     <ContentPage.Content>
         <StackLayout Padding="20" 
-        BackgroundColor="#D1C4E9" 
-        HorizontalOptions="Center" 
-        VerticalOptions="Center">
+        HorizontalOptions="Fill" 
+        VerticalOptions="Fill">
         
             <Label Text="entrega de produto" 
             FontSize="Large" 
             FontAttributes="Bold" 
             HorizontalOptions="Center" />
-            <Button Text="Endereço" />
-            <Button Text="Método de Entrega" />
-            <Button Text="Pagamento" />
-            <Button Text="Revisar Pedido" />
-            <Button Text="Salvar" />
+            <Frame 
+            CornerRadius="20" 
+            Padding="10"/>
+                     <Entry Placeholder="endereço"
+                    BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />
+              <Button Text="Pagamento"
+              BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />       
+             <Button Text="Localizar Pedido" 
+                BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />
+            <Button Text="Salvar" 
+             BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

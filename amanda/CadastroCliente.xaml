@@ -1,34 +1,49 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#D1C4E9"
              x:Class="amanda.Cadastrocliente">
+
 
     <ContentPage.Content>
         <StackLayout 
-        BackgroundColor="Black" 
-        Padding="20" 
-        HorizontalOptions="Center" 
-        VerticalOptions="Center">
+         Padding="20" 
+         Spacing="10"
+         HorizontalOptions="Fill" 
+         VerticalOptions="Fill">
             <Frame 
-            BackgroundColor="White" 
             CornerRadius="20" 
             Padding="10"/>
                 <StackLayout>
                     <Label Text="cadastro" 
+                    FontSize="Large"
                     HorizontalOptions="Center" 
                     VerticalOptions="Center" />
 
-                    <Entry Placeholder="nome" 
-                    Margin="0,10,0,0" />
+                    <Entry Placeholder="nome"
+                    BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />
                     <Entry Placeholder="sobrenome"
-                    Margin="0,10,0,0" />
-                    <Entry Placeholder="email" 
-                    Margin="0,10,0,0" />
-                    <Entry Placeholder="endereço" 
-                    Margin="0,10,0,0" />
-
-                    <Button Text="entrar" 
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    Margin="0,10,0,20" />
+                    <Entry Placeholder="email"
+                    BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />
+                    <Entry Placeholder="telefone"
+                    BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20" />
+                    <Entry Placeholder="endereço"
                     BackgroundColor="White" 
+                    TextColor="Black"
+                    Margin="0,10,0,20" />
+
+                    <Button Text="entrar"
+                    BackgroundColor="White"  
                     TextColor="Black" 
                     Margin="0,20,0,0" />
                 </StackLayout>
