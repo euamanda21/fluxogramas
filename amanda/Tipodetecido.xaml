@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#D3A4DE"
              x:Class="amanda.Tipodetecido">
     <ContentPage.Content>
         <StackLayout Padding="20" 
         BackgroundColor="#D1C4E9" 
-        HorizontalOptions="Center" 
+        HorizontalOptions="Fill" 
         VerticalOptions="Center">
             <Label Text="seleção do tipo de tecido" 
             FontSize="Large" 
             FontAttributes="Bold" 
             HorizontalOptions="Center" />
         
-            <Button Text="algodão" />
+            <Button Text="algodão" 
+             BackgroundColor="White"
+                    TextColor="Black" 
+                    Margin="0,10,0,20"/>
             <Button Text="linho" />
             <Button Text="seda" />
             <Button Text="lã" />
