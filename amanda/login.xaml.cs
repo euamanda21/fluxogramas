@@ -6,8 +6,8 @@ namespace amanda
     public partial class Login : ContentPage
     {
         public Login()
-        {
-            InitializeComponent();
+        { InitializeComponent();
+           
         }
 
         private void OnEntrarButtonClicked(object sender, EventArgs e)

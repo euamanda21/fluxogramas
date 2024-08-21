@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="amanda.Fornecedor"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#D8BFD8"
+             Title="Fornecedor">
+
+    <ContentPage.Content>
+        <StackLayout Padding="30" 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center">
+            <Label Text="fornecedor"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Entry Placeholder="nome" 
+            TextColor="Black"
+            BackgroundColor="White"/>
+
+            <Entry Placeholder="qual produto ele fornece"
+            TextColor="Black" 
+            BackgroundColor="White"/>
+
+            <Entry Placeholder="valor" 
+            TextColor="Black"
+            BackgroundColor="White"/>
+
+            <Entry Placeholder="entrega do produto" 
+            TextColor="Black"
+            BackgroundColor="White"/>
+
+            <StackLayout Orientation="Horizontal" 
+            HorizontalOptions="Center" 
+            Spacing="20" 
+            Margin="0,20,0,0">
+                <Button Text="cancelar" 
+                        BackgroundColor="#E5E5E5" 
+                        TextColor="Black" 
+                        WidthRequest="100" />
+
+                <Button Text="salvar" 
+                        BackgroundColor="#E5E5E5" 
+                        TextColor="Black" 
+                        WidthRequest="100" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

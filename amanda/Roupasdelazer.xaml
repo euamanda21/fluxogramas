@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="amanda.Roupasdelazer"
              BackgroundColor="#D3B6E6"
+             Shell.NavBarIsVisible="False"
              Title="Roupas de Lazer">
 
     <StackLayout VerticalOptions="Center" 
