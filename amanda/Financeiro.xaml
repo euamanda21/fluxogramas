@@ -35,5 +35,6 @@
             <Button Text="Cancelar" Grid.Column="0" />
             <Button Text="Salvar" Grid.Column="1" />
         </Grid>
+         </StackLayout>
     </Grid>
 </ContentPage>
