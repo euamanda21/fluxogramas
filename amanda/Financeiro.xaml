@@ -36,5 +36,5 @@
             <Button Text="Salvar" Grid.Column="1" />
         </Grid>
          </StackLayout>
-    </Grid>
+         </ContentPage.Content>
 </ContentPage>
